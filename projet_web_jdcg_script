@@ -2,6 +2,38 @@
 <html>
 <head>
     <title>Jeu de culture générale</title>
+    <style>
+        body {
+            font-family: Palatino;
+            background-color: #98FB98;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #C0C0C0;
+        }
+
+        .question {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .options {
+            margin-left: 20px;
+        }
+
+        .option {
+            margin-bottom: 5px;
+        }
+
+        .result {
+            margin-top: 10px;
+            font-weight: bold, italics;
+        }
+    </style>
+
 </head>
 <body>
     <script>
