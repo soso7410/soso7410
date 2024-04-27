@@ -1,37 +1,30 @@
+body {
+    font-family: Palatino;
+    background-color: #98FB98;
+    margin: 0;
+    padding: 20px;
+}
 
-<head>
-        body {
-            font-family: Palatino;
-            background-color: #98FB98;
-            margin: 0;
-            padding: 20px;
-        }
+h1 {
+    text-align: center;
+    color: #C0C0C0;
+}
 
-        h1 {
-            text-align: center;
-            color: #C0C0C0;
-        }
+.question {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
 
-        .question {
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
+.options {
+    margin-left: 20px;
+}
 
-        .options {
-            margin-left: 20px;
-        }
+.option {
+    margin-bottom: 5px;
+}
 
-        .option {
-            margin-bottom: 5px;
-        }
-
-
-        .result {
-            margin-top: 10px;
-            font-weight: bold, italics;
-        }
-    </head>
-
-<body>
-        <a href="projet_web_script-jcdg.html"> Cliquez ici ! </a> 
-</body>
+.result {
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
