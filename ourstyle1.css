@@ -2,8 +2,12 @@ body {
     font-family: Palatino;
     background-color: #98FB98;
     margin: 0;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
